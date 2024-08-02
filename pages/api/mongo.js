@@ -3,10 +3,10 @@ require('dotenv').config();
 
 const connectDB = async () => {
 
-  const mongo_user = process.env.MONGO_USERNAME;
-  const mongo_pass = process.env.MONGO_PASSWORD;
-  const mongo_host_port = process.env.MONGO_HOST_PORT;
-  const mongo_db = process.env.MONGO_DB;
+  const mongo_user = "yoffetal"
+  const mongo_pass = "SspbTaSi8z5oB8VX"
+  const mongo_host_port = "cluster0.vi4mvlp.mongodb.net"
+  const mongo_db = "gaurdinglist?retryWrites=true&w=majority"
 
   console.log(mongo_user)
   console.log(mongo_pass)
